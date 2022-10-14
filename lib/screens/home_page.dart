@@ -57,13 +57,23 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Text(
+              'Stepper Flutter',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.black, 
+                fontSize: 40, 
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+            SizedBox(height: resp.hp(2.5)),
             SizedBox(
-              height: resp.hp(10),
-              width: resp.wp(40),
+              height: resp.hp(8),
+              width: resp.wp(35),
               child: Center(
                 child: Container(
-                  height: resp.hp(10),
-                  width: resp.wp(40),
+                  height: resp.hp(8),
+                  width: resp.wp(35),
                   transform: Matrix4.identity()..scale(_valueAnimation.value),
                   alignment: Alignment.center,
                   padding: EdgeInsets.symmetric(
@@ -107,7 +117,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   color: fontColor, 
-                                  fontSize: 60, 
+                                  fontSize: 40, 
                                   fontWeight: FontWeight.w900,
                                 ),
                               ),

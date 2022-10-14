@@ -1,16 +1,12 @@
-# animated_stepper_flutter
 
-A new Flutter project.
+# Custom Widget - Animated Stepper Flutter
 
-## Getting Started
+This widget was created without any package.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Logo](https://i.imgur.com/ctw131t.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Demo
+![Demo](https://media.giphy.com/media/iNjLFOcmrHmMkmsVnz/giphy.gif)
